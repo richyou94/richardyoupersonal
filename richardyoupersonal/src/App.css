@@ -5,3 +5,14 @@
 }
 
 
+/* :root {
+  --main_bg: #000;
+  --main_text: #fff;
+  --sub: orangered;
+} */
+
+:root {
+  --main_bg: #17223B;
+  --main_text: #c9c9c9;
+  --sub: #FF6768;
+}
