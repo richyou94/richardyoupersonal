@@ -1,14 +1,11 @@
 // import logo from './logo.svg';
 import "./App.css";
+import BigLogo from "./components/Logo/BigLogo";
 
 function App() {
   return (
     <div className="title-page">
-      <div className="logo-box">
-        <span className="logo-letter logo-upper">R</span>
-        <span className="logo-name">Richard You</span>
-        <span className="logo-letter logo-lower">Y</span>
-      </div>
+      <BigLogo />
     </div>
   );
 }
