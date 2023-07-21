@@ -1,0 +1,22 @@
+.container {
+    background-color: #000;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+  }
+  
+  .container span,
+  .container p,
+  .container h1,
+  .container h2,
+  .container h3,
+  .container h4,
+  .container h5,
+  .container h6 {
+    color: #fff;
+  }
+  
+  
