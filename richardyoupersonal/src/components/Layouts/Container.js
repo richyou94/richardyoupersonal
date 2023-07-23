@@ -1,11 +1,15 @@
-import React from 'react'
-import styles from './Container.module.css'
-
+import React from "react";
+import styles from "./Container.module.css";
 
 function Container(props) {
   return (
-    <div className={styles.container}>{props.children}</div>
-  )
+    <div
+      style={{ backgroundColor: props?.bgColor, minHeight: props?.minHeight, opacity: props?.opacity }}
+      className={styles.container}
+    >
+      {props.children}
+    </div>
+  );
 }
 
-export default Container
+export default Container;

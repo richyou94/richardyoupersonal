@@ -5,6 +5,11 @@
   align-items: center;
   /* padding: 10rem 0rem; */
 }
+/* .logo_box:before {
+  background-image: url("../../images/tree_transparent.png");
+  background-size: cover;
+  opacity: 0.3;
+} */
 
 .logo_letter {
   font-size: 30rem;

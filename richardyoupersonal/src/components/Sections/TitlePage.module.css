@@ -1,0 +1,25 @@
+.container {
+    /* background-image: url("../../images/background_stars.jpg"); */
+    /* filter: blur(0px); */
+    background-size: cover;
+    opacity: 1;
+    background-color: var(--main_bg);
+    min-height: 90vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+  }
+  
+  .container span,
+  .container p,
+  .container h1,
+  .container h2,
+  .container h3,
+  .container h4,
+  .container h5,
+  .container h6 {
+    color: var(--main_text);
+  }
+  

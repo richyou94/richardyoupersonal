@@ -1,13 +1,14 @@
 // import logo from './logo.svg';
 import "./App.css";
-import Container from "./components/Layouts/Container";
-import BigLogo from "./components/Logo/BigLogo";
+import AboutMe from "./components/Sections/AboutMe";
+import TitlePage from "./components/Sections/TitlePage";
 
 function App() {
   return (
-    <Container>
-      <BigLogo />
-    </Container>
+    <>
+      <TitlePage />
+      <AboutMe />
+    </>
   );
 }
 
